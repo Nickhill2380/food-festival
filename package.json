@@ -1,34 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "food-festival",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --watch",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nickhill2380/food-festival.git"
-  },
-  "author": "Nick Hill",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nickhill2380/food-festival/issues"
-  },
-  "homepage": "https://github.com/Nickhill2380/food-festival#readme",
-  "devDependencies": {
-    "webpack": "^5.24.3",
-    "webpack-cli": "^4.5.0"
-  },
-  "dependencies": {
-    "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
-  }
-=======
     "name": "module-18-project",
     "version": "1.0.0",
     "description": "",
@@ -36,22 +6,23 @@
     "scripts": {
         "webpack": "webpack --watch",
         "build": "webpack",
+        "start:dev": "webpack-dev-server",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "file-loader": "^4.2.0",
+        "file-loader": "^4.3.0",
         "image-webpack-loader": "^6.0.0",
         "webpack": "^4.32.2",
-        "webpack-bundle-analyzer": "^3.6.0",
-        "webpack-cli": "^3.3.2"
+        "webpack-bundle-analyzer": "^3.9.0",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
         "bootstrap": "^4.3.1",
         "jquery": "^3.4.1",
         "popper.js": "^1.16.0"
     }
->>>>>>> main
 }
